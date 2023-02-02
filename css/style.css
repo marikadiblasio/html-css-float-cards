@@ -4,3 +4,56 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+body {
+    background-color: var(--bg-body);
+/* General */
+}:root {
+    --title: #E5306F;
+    --mail: #236D94;
+    --bg-card: #0F0E17;
+    --bg-body: #FFFFFE;
+    --job: #FFFFFE;
+    --name: #F9F4EF;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header *{
+    text-align: center;
+    padding: 2rem 0;
+}
+h1 {
+    color: var(--title);
+}
+/* main structure */
+.card {
+    background-color: var(--bg-card);
+    float: left;
+    width: calc((100% - 2rem) / 3 );
+    margin-bottom: 2rem;
+}
+.middle {
+    margin: 0 1rem;
+}
+/* id */
+.job {
+    color: var(--job);
+    text-transform: capitalize;
+}
+div.id>span{
+    display: block;
+}
+
+.up-case{
+    text-transform: uppercase;
+    color: var(--name);
+}
+.mail {
+    color: var(--mail);
+}
