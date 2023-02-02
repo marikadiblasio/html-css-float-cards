@@ -48,12 +48,21 @@ h1 {
 }
 div.id>span{
     display: block;
+    padding-top: 0.5rem;
 }
 
 .up-case{
     text-transform: uppercase;
     color: var(--name);
+    padding-top: 0.7rem;
 }
 .mail {
     color: var(--mail);
+}
+/* photo */
+.photo{
+    float: left;
+    height: 6rem;
+    /* object-fit: scale-down; --?!?*/ 
+    padding-right: 1rem;
 }
